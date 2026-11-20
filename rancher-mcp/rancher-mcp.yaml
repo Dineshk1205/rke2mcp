@@ -34,6 +34,7 @@ spec:
             - --disable-destructive=true
             - --show-sensitive-data=false
             - --toolsets=kubernetes,rancher
+             - --enabled-tools=cluster_list,kubernetes_list,kubernetes_get,kubernetes_logs,kubernetes_events,kubernetes_workload_health,kubernetes_node_analysis
           env:
             - name: HOME
               value: /home/node
